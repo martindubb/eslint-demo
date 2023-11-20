@@ -1,12 +1,12 @@
 module.exports = {
     "env": {
+        "node": true, // Definiert Umgebungsvariablen für Node.js
+        "es2021": true, // Legt fest, dass der Code ECMAScript 2021 entsprechen soll
     },
-    "node": true, // Definiert Umgebungsvariablen für Node.js
-    "es2021": true, // Legt fest, dass der Code ECMAScript 2021 entsprechen soll
     "extends": "eslint:recommended", // Verwendet die empfohlenen ESLint-Regeln
     "parserOptions": {
+        "ecmaVersion": 12, // Erlaubt die Verwendung von ECMAScript 2021 Features
     },
-    "ecmaVersion": 12, // Erlaubt die Verwendung von ECMAScript 2021 Features
     "rules": {
         "indent": ["error", 4], // Erzwingt eine Einrückung von 4 Leerzeichen
         "linebreak-style": ["error", "unix"], // Erzwingt Unix-Zeilenumbrüche (LF)

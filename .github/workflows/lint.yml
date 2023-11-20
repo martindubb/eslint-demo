@@ -11,6 +11,6 @@ jobs:
         with:
           node-version: "14"
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
       - name: Run Linter
         run: npx eslint .
